@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Carlos Hugo Rodriguez Calderon",
-        "label": "Full Stack Developer | React | Flutter | Node.js",
+        "label": "Full Stack Developer | React | Angular | Flutter | Node.js",
         "image": "https://avatars.githubusercontent.com/u/31521650?v=4",
         "email": "cahuroca.aw@gmail.com",
         "phone": "+52 (443) 190-2270",
@@ -69,9 +69,9 @@
             "organization": "Instituto Tecnológico Superior del Sur de Guanajuato",
             "position": "Volunteer",
             "url": "https://surguanajuato.tecnm.mx/",
-            "startDate": "2018-01-01",
+            "startDate": "2017-01-02",
             "endDate": "2018-12-31",
-            "summary": "I collaborated on the development of various educational tools, including a desktop application designed for conducting interviews with institute student applicants. Additionally, I contributed to the creation of a web platform tailored for the same purpose, offering a user-friendly interface for both interviewers and applicants. Furthermore, I was involved in the development of a web application focused on streamlining the enrollment process for students interested in English classes. These experiences allowed me to refine my skills in software development while making a meaningful impact in the educational sector.",
+            "summary": "I collaborated on the development of various educational tools, including a desktop application designed for conducting interviews with institute student applicants. Additionally, I contributed to the creation of a web platform tailored for the same purpose, offering a user-friendly interface for both interviewers and applicants. Furthermore, I was involved in the development of a web application focused on streamlining the enrollment process for students interested in English classes.",
             "highlights": [
                 "Parameterization of the tool"
             ]
@@ -208,7 +208,7 @@
             ]
         },
         {
-            "name": "PHP (Laravel, Codeigniter)",
+            "name": "PHP (Laravel and Codeigniter)",
             "level": "Master",
             "keywords": [
                 "PHP",

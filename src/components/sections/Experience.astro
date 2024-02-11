@@ -1,19 +1,40 @@
 ---
 import Section from "@/components/Section.astro";
-import { work } from "@cv";
+import { work, volunteer } from "@cv";
 ---
 
 <Section title="Experience">
     <ul>
         {
-            work.map(
-                ({
-                    name,
-                    startDate,
-                    endDate,
-                    position,
-                    summary,
-                }) => {
+            work.map(({ name, startDate, endDate, position, summary }) => {
+                const startYear = new Date(startDate).getFullYear();
+                const endYear = endDate
+                    ? new Date(endDate).getFullYear()
+                    : "Present";
+                const duration = `${startYear} - ${endYear}`;
+
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3>{name}</h3>
+                                    <h4>{position}</h4>
+                                </div>
+                                <time>{duration}</time>
+                            </header>
+                            <footer>
+                                <p>{summary}</p>
+                            </footer>
+                        </article>
+                    </li>
+                );
+            })
+        }
+
+        {
+            volunteer.map(
+                ({ organization, startDate, endDate, position, summary }) => {
                     const startYear = new Date(startDate).getFullYear();
                     const endYear = endDate
                         ? new Date(endDate).getFullYear()
@@ -25,7 +46,7 @@ import { work } from "@cv";
                             <article>
                                 <header>
                                     <div>
-                                        <h3>{name}</h3>
+                                        <h3>{organization}</h3>
                                         <h4>{position}</h4>
                                     </div>
                                     <time>{duration}</time>
