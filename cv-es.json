@@ -6,7 +6,7 @@
         "email": "cahuroca.aw@gmail.com",
         "phone": "+52 (443) 190-2270",
         "url": "https://cahuroca.com",
-        "summary": "I'm a Full Stack Developer with experience in building web and mobile applications. I specialize in React, Flutter, and Node.js. I'm passionate about learning new technologies and sharing my knowledge with others. I'm a team player and I'm always looking for new challenges.",
+        "summary": "Soy un Desarrollador Full Stack con experiencia en la construcción de aplicaciones web y móviles. Me especializo en React, Flutter y Node.js. Me apasiona aprender nuevas tecnologías y compartir mi conocimiento con otros. Soy un jugador de equipo y siempre estoy buscando nuevos desafíos.",
         "location": {
             "address": "1160 Av. Morelos",
             "postalCode": "58855",
@@ -34,7 +34,7 @@
             "url": "https://kingtide.com",
             "startDate": "2022-04-25",
             "endDate": null,
-            "summary": "I helped build websites emphasizing product showcasing and customer engagement, employing modern tools such as React.js and its meta-framework Next.js. Additionally, I assisted in crafting user-friendly administrative interfaces to streamline business operations. I also played a part in developing administrative applications and collaborated on a mobile app project using Flutter. This app integrated social and collaborative elements, fostering connections among users.",
+            "summary": "Ayudé a construir sitios web enfatizando la presentación de productos y el compromiso del cliente, utilizando herramientas modernas como React.js y su meta-framework Next.js. Además, colaboré en la creación de interfaces administrativas amigables para el usuario para optimizar las operaciones comerciales. También participé en el desarrollo de aplicaciones administrativas y colaboré en un proyecto de aplicación móvil utilizando Flutter. Esta aplicación integró elementos sociales y colaborativos, fomentando conexiones entre los usuarios.",
             "highlights": [
                 "Started the company",
                 "Shark of the Month award"
@@ -46,7 +46,7 @@
             "url": "https://cactuslabs.mx",
             "startDate": "2020-02-04",
             "endDate": "2022-04-25",
-            "summary": "I developed several e-commerce platforms with integrated payments and both SQL and NoSQL databases. Additionally, I created systems for industrial security audits, which included designing web and mobile interfaces, managing databases, and implementing APIs. Furthermore, I led small teams in various projects, including the development of a hybrid application for online classes and gym management, as well as platforms catering to travel and tourism companies.",
+            "summary": "Desarrollé varias plataformas de comercio electrónico con pagos integrados y bases de datos SQL y NoSQL. Además, creé sistemas para auditorías de seguridad industrial, que incluyeron el diseño de interfaces web y móviles, la gestión de bases de datos y la implementación de APIs. Además, lideré equipos pequeños en varios proyectos, incluido el desarrollo de una aplicación híbrida para clases en línea y gestión de gimnasios, así como plataformas para empresas de viajes y turismo.",
             "highlights": [
                 "Started the company",
                 "Launched multiple projects"
@@ -56,25 +56,23 @@
     "volunteer": [
         {
             "organization": "Open Road Solutions S de RL de CV",
-            "position": "Trainee",
+            "position": "Practicante",
             "url": "https://e-openroad.com/",
             "startDate": "2019-08-01",
             "endDate": "2019-11-01",
-            "summary": "Three-month collaboration in the development of the web tool e-Dexicion for decision-making with credit products for SMEs",
+            "summary": "Colaboración de tres meses en el desarrollo de la herramienta web e-Dexicion para la toma de decisiones con productos crediticios para pymes.",
             "highlights": [
                 "Parameterization of the tool"
             ]
         },
         {
             "organization": "Instituto Tecnológico Superior del Sur de Guanajuato",
-            "position": "Volunteer",
+            "position": "Voluntario",
             "url": "https://surguanajuato.tecnm.mx/",
             "startDate": "2017-01-02",
             "endDate": "2018-12-31",
-            "summary": "I collaborated on the development of various educational tools, including a desktop application designed for conducting interviews with institute student applicants. Additionally, I contributed to the creation of a web platform tailored for the same purpose, offering a user-friendly interface for both interviewers and applicants. Furthermore, I was involved in the development of a web application focused on streamlining the enrollment process for students interested in English classes.",
-            "highlights": [
-                "Parameterization of the tool"
-            ]
+            "summary": "Colaboré en el desarrollo de varias herramientas educativas, incluida una aplicación de escritorio diseñada para realizar entrevistas con solicitantes de estudiantes del instituto. Además, contribuí a la creación de una plataforma web diseñada para el mismo propósito, ofreciendo una interfaz fácil de usar tanto para entrevistadores como para solicitantes. Además, estuve involucrado en el desarrollo de una aplicación web centrada en agilizar el proceso de inscripción para estudiantes interesados en clases de inglés.",
+            "highlights": []
         }
     ],
     "education": [
@@ -82,7 +80,7 @@
             "institution": "Instituto Tecnológico Superior del Sur de Guanajuato",
             "url": "https://surguanajuato.tecnm.mx/",
             "area": "Ingeniería en Sistemas Computacionales",
-            "studyType": "Bachelor",
+            "studyType": "Licenciatura",
             "startDate": "2014-01-10",
             "endDate": "2019-01-11",
             "score": "7.5",
@@ -208,7 +206,7 @@
             ]
         },
         {
-            "name": "PHP (Laravel and Codeigniter)",
+            "name": "PHP (Laravel y Codeigniter)",
             "level": "Master",
             "keywords": [
                 "PHP",
@@ -217,7 +215,7 @@
             ]
         },
         {
-            "name": "Databases (MySql, Postgresql and MongoDB)",
+            "name": "Databases (MySql, Postgresql y MongoDB)",
             "level": "Master",
             "keywords": [
                 "MySql",
@@ -242,7 +240,7 @@
     ],
     "languages": [
         {
-            "language": "English",
+            "language": "Inglés",
             "fluency": "B1"
         }
     ],

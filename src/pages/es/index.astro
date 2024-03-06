@@ -8,28 +8,28 @@ import Layout from "@/layouts/Layout.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 
-import { basics } from "@cv";
+import { basics } from "@cv-es";
 
 const { name, label, summary } = basics;
 ---
 
 <Layout title={`${name}'s Portfolio`} description={label}>
-	'
-	<main>
-		<Hero />
-		<About summary={summary} />
-		<Experience />
-		<Education />
-		<Skills />
-		<Projects />
-	</main>
-	<KeyboardManager />
+    '
+    <main>
+        <Hero />
+        <About summary={summary} />
+        <Experience />
+        <Education />
+        <Skills />
+        <!-- <Projects /> -->
+    </main>
+    <KeyboardManager />
 </Layout>
 
 <style>
-	main {
-		padding: 4rem;
-		margin: auto;
-		width: 100%;
-	}
+    main {
+        padding: 4rem;
+        margin: auto;
+        width: 100%;
+    }
 </style>

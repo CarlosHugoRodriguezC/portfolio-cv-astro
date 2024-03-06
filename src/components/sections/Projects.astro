@@ -1,11 +1,11 @@
 ---
 import Section from "@/components/Section.astro";
-import { projects as cvprojects } from "@cv";
+import { projects as cvprojects } from "@cv-es";
 import { type Project } from "@/interfaces/resume.interface";
 const projects = cvprojects as Project[];
 ---
 
-<Section title="Projects">
+<Section title="Proyectos">
     {projects.length === 0 && <p>No public projects to show yet.</p>}
     {
         projects.length > 0 && (
