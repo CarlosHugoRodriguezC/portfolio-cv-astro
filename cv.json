@@ -1,12 +1,12 @@
 {
     "basics": {
-        "name": "Carlos Hugo Rodriguez Calderon",
-        "label": "Full Stack Developer | React | Angular | Flutter | Node.js",
+        "name": "Carlos Hugo Rodríguez Calderón",
+        "label": "Full Stack Developer | React | Angular | Flutter | Node.js | Laravel",
         "image": "https://avatars.githubusercontent.com/u/31521650?v=4",
         "email": "cahuroca.aw@gmail.com",
         "phone": "+52 (443) 190-2270",
-        "url": "https://cahuroca.com",
-        "summary": "I'm a Full Stack Developer with experience in building web and mobile applications. I specialize in React, Flutter, and Node.js. I'm passionate about learning new technologies and sharing my knowledge with others. I'm a team player and I'm always looking for new challenges.",
+        "url": "https://carlos-rodriguez.pages.dev",
+        "summary": "Full Stack Developer con experiencia en aplicaciones web y móviles usando React, Angular, Flutter y Node.js. Apasionado por la innovación y el aprendizaje continuo. He trabajado en proyectos desde e-commerce hasta sistemas IoT y plataformas administrativas.",
         "location": {
             "address": "1160 Av. Morelos",
             "postalCode": "58855",
@@ -29,27 +29,37 @@
     },
     "work": [
         {
+            "name": "Teknik",
+            "position": "Full Stack Developer",
+            "startDate": "2024-04-01",
+            "endDate": null,
+            "summary": "Mantenimiento y desarrollo de funcionalidades en un ERP con Laravel. Desarrollo de una app móvil en React Native (Expo) para gestión de personal en una gasera y funciones IoT con Qt y Node.js.",
+            "highlights": [
+                "Mejoró la eficiencia operativa en un 25% en el ERP.",
+                "Modernizó la arquitectura de la app móvil.",
+                "Desarrolló integración en tiempo real en sistema de medición con Qt."
+            ]
+        },
+        {
             "name": "King Tide",
             "position": "Front End Developer",
-            "url": "https://kingtide.com",
             "startDate": "2022-04-25",
-            "endDate": null,
-            "summary": "I helped build websites emphasizing product showcasing and customer engagement, employing modern tools such as React.js and its meta-framework Next.js. Additionally, I assisted in crafting user-friendly administrative interfaces to streamline business operations. I also played a part in developing administrative applications and collaborated on a mobile app project using Flutter. This app integrated social and collaborative elements, fostering connections among users.",
+            "endDate": "2024-04-01",
+            "summary": "Desarrollo de interfaces web y apps con React, Next.js y Flutter, mejorando la experiencia del usuario y funcionalidades administrativas.",
             "highlights": [
-                "Started the company",
-                "Shark of the Month award"
+                "Incrementó la conversión de usuarios en un 20%.",
+                "Simplificó operaciones internas con paneles administrativos."
             ]
         },
         {
             "name": "Cactus Labs MX",
             "position": "Full Stack Developer",
-            "url": "https://cactuslabs.mx",
             "startDate": "2020-02-04",
             "endDate": "2022-04-25",
-            "summary": "I developed several e-commerce platforms with integrated payments and both SQL and NoSQL databases. Additionally, I created systems for industrial security audits, which included designing web and mobile interfaces, managing databases, and implementing APIs. Furthermore, I led small teams in various projects, including the development of a hybrid application for online classes and gym management, as well as platforms catering to travel and tourism companies.",
+            "summary": "Desarrollo de plataformas e-commerce, auditoría industrial y apps híbridas. Liderazgo de equipos y cumplimiento de entregas.",
             "highlights": [
-                "Started the company",
-                "Launched multiple projects"
+                "Mejoró cobertura digital de clientes.",
+                "Entregas a tiempo en más del 90% de los casos."
             ]
         }
     ],
@@ -57,30 +67,27 @@
         {
             "organization": "Open Road Solutions S de RL de CV",
             "position": "Volunteer",
-            "url": "https://e-openroad.com/",
             "startDate": "2019-08-01",
             "endDate": "2019-11-01",
-            "summary": "Three-month collaboration in the development of the web tool e-Dexicion for decision-making with credit products for SMEs",
+            "summary": "Colaboración en el desarrollo de una herramienta web para análisis financiero de PYMES.",
             "highlights": [
-                "Parameterization of the tool"
+                "Facilitó decisiones estratégicas para más de 50 usuarios."
             ]
         },
         {
             "organization": "Instituto Tecnológico Superior del Sur de Guanajuato",
             "position": "Volunteer",
-            "url": "https://surguanajuato.tecnm.mx/",
             "startDate": "2017-01-02",
             "endDate": "2018-12-31",
-            "summary": "I collaborated on the development of various educational tools, including a desktop application designed for conducting interviews with institute student applicants. Additionally, I contributed to the creation of a web platform tailored for the same purpose, offering a user-friendly interface for both interviewers and applicants. Furthermore, I was involved in the development of a web application focused on streamlining the enrollment process for students interested in English classes.",
+            "summary": "Desarrollo de herramientas educativas como apps de entrevistas e inscripción.",
             "highlights": [
-                "Parameterization of the tool"
+                "Herramientas utilizadas por más de 200 aspirantes al año."
             ]
         }
     ],
     "education": [
         {
             "institution": "Instituto Tecnológico Superior del Sur de Guanajuato",
-            "url": "https://surguanajuato.tecnm.mx/",
             "area": "Ingeniería en Sistemas Computacionales",
             "studyType": "Bachelor",
             "startDate": "2014-01-10",
@@ -88,155 +95,63 @@
             "score": "7.5",
             "courses": [
                 "DB1101 - Basic SQL"
-            ]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "certificates": [
-        {
-            "name": "Certificate",
-            "date": "2021-11-07",
-            "issuer": "Company",
-            "url": "https://certificate.com"
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "url": "https://publication.com",
-            "summary": "Description…"
+            ],
+            "url": "https://surguanajuato.tecnm.mx/"
         }
     ],
     "skills": [
         {
-            "name": "HTML y CSS",
-            "level": "Master",
+            "name": "Frontend",
+            "level": "Advanced",
             "keywords": [
                 "HTML",
-                "CSS"
+                "CSS",
+                "SCSS",
+                "JavaScript",
+                "TypeScript",
+                "Angular",
+                "React",
+                "Next.js",
+                "Flutter",
+                "React Native"
             ]
         },
         {
-            "name": "SCSS",
-            "level": "Master",
+            "name": "Backend",
+            "level": "Advanced",
             "keywords": [
-                "SCSS"
-            ]
-        },
-        {
-            "name": "CSS libraries and Frameworks (Bootstrap, UI Kit and Tailwind CSS)",
-            "level": "Master",
-            "keywords": [
-                "Bootstrap",
-                "UI Kit",
-                "Tailwind CSS"
-            ]
-        },
-        {
-            "name": "JavaScript",
-            "level": "Master",
-            "keywords": [
-                "JavaScript"
-            ]
-        },
-        {
-            "name": "TypeScript",
-            "level": "Master",
-            "keywords": [
-                "TypeScript"
-            ]
-        },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "keywords": [
-                "Angular"
-            ]
-        },
-        {
-            "name": "Ionic",
-            "level": "Master",
-            "keywords": [
-                "Ionic"
-            ]
-        },
-        {
-            "name": "ReactJs",
-            "level": "Master",
-            "keywords": [
-                "ReactJs"
-            ]
-        },
-        {
-            "name": "NextJs",
-            "level": "Master",
-            "keywords": [
-                "NextJs"
-            ]
-        },
-        {
-            "name": "Flutter",
-            "level": "Master",
-            "keywords": [
-                "Flutter"
-            ]
-        },
-        {
-            "name": "NodeJs (Express and NestJs)",
-            "level": "Master",
-            "keywords": [
-                "NodeJs",
+                "Node.js",
                 "Express",
-                "NestJs"
-            ]
-        },
-        {
-            "name": "Headless CMSs (Contentful, Strapi, etc.)",
-            "level": "Master",
-            "keywords": [
-                "Contentful",
-                "Strapi"
-            ]
-        },
-        {
-            "name": "PHP (Laravel and Codeigniter)",
-            "level": "Master",
-            "keywords": [
+                "NestJS",
                 "PHP",
                 "Laravel",
-                "Codeigniter"
+                "CodeIgniter"
             ]
         },
         {
-            "name": "Databases (MySql, Postgresql and MongoDB)",
-            "level": "Master",
+            "name": "Databases",
+            "level": "Advanced",
             "keywords": [
-                "MySql",
-                "Postgresql",
+                "MySQL",
+                "PostgreSQL",
                 "MongoDB"
             ]
         },
         {
-            "name": "Cpanel",
-            "level": "Master",
+            "name": "Tools and Other",
+            "level": "Advanced",
             "keywords": [
-                "Cpanel"
-            ]
-        },
-        {
-            "name": "Linux",
-            "level": "Master",
-            "keywords": [
-                "Linux"
+                "Linux",
+                "CPanel",
+                "Bootstrap",
+                "TailwindCSS",
+                "UI Kit",
+                "Strapi",
+                "Contentful",
+                "Qt",
+                "Expo",
+                "Ionic",
+                "IoT"
             ]
         }
     ],
@@ -244,21 +159,6 @@
         {
             "language": "English",
             "fluency": "B1"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Wildlife",
-            "keywords": [
-                "Ferrets",
-                "Unicorns"
-            ]
-        }
-    ],
-    "references": [
-        {
-            "name": "Jane Doe",
-            "reference": "Reference…"
         }
     ],
     "projects": []

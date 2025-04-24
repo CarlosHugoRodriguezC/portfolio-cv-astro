@@ -3,11 +3,11 @@ import Section from "@/components/Section.astro";
 import { education } from "@cv";
 ---
 
-<Section title="Education">
+<Section title="Educación">
     <ul>
         {
             education.map(
-                ({ institution, startDate, endDate, area, studyType, url }) => {
+                ({ institution, startDate, endDate, area, studyType, url = '/' }) => {
                     const startYear = new Date(startDate).getFullYear();
                     const endYear = endDate
                         ? new Date(endDate).getFullYear()
